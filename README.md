@@ -19,7 +19,7 @@ AutoESDCas consists of the following modules:
 - The user provides the upstream sequence of the target to be edited on the genome.
 - The user provides the coordinates of the target to be edited on the genome.
 
-[Learn more about Data Preprocessing](https://github.com/tibbdc/AutoESDCas/tree/master/data_preprocessing)
+[Learn more about data_preprocessing](https://github.com/tibbdc/AutoESDCas/tree/master/data_preprocessing)
 
 
 ## chopchop
