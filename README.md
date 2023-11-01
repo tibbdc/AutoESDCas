@@ -7,14 +7,14 @@ AutoESDCas, an online tool for the whole-workflow editing sequence design for mi
 
 ## Modules
 AutoESDCas consists of the following modules:
-1. [Data Preprocessing](#data_preprocessing)
-2. [ChopChop](#chopchop)
-3. [Editing Sequence Design](#editing_sequence_design)
+1. [data_preprocessing](#data_preprocessing)
+2. [chopchop](#chopchop)
+3. [editing_sequence_design](#editing_sequence_design)
 
 
-## Data Preprocessing
+## data_preprocessing
 
-**Data Preprocessing** serves as the data preprocessing module of AutoESDCas. Its primary function is to convert user input information into standardized and structured input data for AutoESDCas. It supports two main types of user input information:
+**data_preprocessing** serves as the data preprocessing module of AutoESDCas. Its primary function is to convert user input information into standardized and structured input data for AutoESDCas. It supports two main types of user input information:
 
 - The user provides the upstream sequence of the target to be edited on the genome.
 - The user provides the coordinates of the target to be edited on the genome.
@@ -26,13 +26,13 @@ AutoESDCas consists of the following modules:
 
 **chopchop** serves as the sgRNA design module of AutoESDCas. Its primary function is to perform high-throughput sgRNA design by utilizing the core algorithm of the original ChopChop sgRNA design. This process is based on the results obtained from the Data Preprocessing module.
 
-[Learn more about ChopChop](#link-to-chopchop)
+[Learn more about chopchop](#link-to-chopchop)
 
 ## editing_sequence_design
 
 **editing_sequence_design** serves as the primer design module of AutoESDCas, with a primary focus on automating and optimizing the primer design process for genome editing. This module builds upon the results obtained from the Data Preprocessing and ChopChop modules. It offers a range of features, including the design of homologous arms, PCR primers, sequencing primers, and the visualization of recombinant plasmid maps.
 
-[Learn more about Editing Sequence Design](#link-to-editing_sequence_design)
+[Learn more about editing_sequence_design](#link-to-editing_sequence_design)
 
 ## Installation
 
