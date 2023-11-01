@@ -19,20 +19,20 @@ AutoESDCas consists of the following modules:
 - The user provides the upstream sequence of the target to be edited on the genome.
 - The user provides the coordinates of the target to be edited on the genome.
 
-[Learn more about Data Preprocessing](#link-to-data_preprocessing)
+[Learn more about Data Preprocessing](#https://github.com/tibbdc/AutoESDCas/tree/master/data_preprocessing)
 
 
 ## chopchop
 
 **chopchop** serves as the sgRNA design module of AutoESDCas. Its primary function is to perform high-throughput sgRNA design by utilizing the core algorithm of the original ChopChop sgRNA design. This process is based on the results obtained from the Data Preprocessing module.
 
-[Learn more about chopchop](#link-to-chopchop)
+[Learn more about chopchop](#https://github.com/tibbdc/AutoESDCas/tree/master/chopchop)
 
 ## editing_sequence_design
 
 **editing_sequence_design** serves as the primer design module of AutoESDCas, with a primary focus on automating and optimizing the primer design process for genome editing. This module builds upon the results obtained from the Data Preprocessing and ChopChop modules. It offers a range of features, including the design of homologous arms, PCR primers, sequencing primers, and the visualization of recombinant plasmid maps.
 
-[Learn more about editing_sequence_design](#link-to-editing_sequence_design)
+[Learn more about editing_sequence_design](#https://github.com/tibbdc/AutoESDCas/tree/master/edit_sequence_design)
 
 ## Installation
 
