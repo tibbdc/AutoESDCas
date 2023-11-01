@@ -2,8 +2,19 @@
 # data_preprocessing
 
 ## Project Introduction  
-data_preprocessing, as the data preprocessing module of AutoESDCas, its main function is to convert user input information into standard and standardized input information for AutoESDCas.Among them, for user input information, there are mainly two types supported: 1. the user provides the upstream sequence of the target to be edited on the genome, and 2. the user provides the coordinates of the target to be edited on the genome.At the same time, according to the main functions that AutoESDCas serves users, including: 1. designing only sgRNA, 2. designing only primers, 3. designing both sgRNA and primers, both types of input information also require relevant configurations.
 
+**data_preprocessing** serves as the data preprocessing module of AutoESDCas. Its primary function is to convert user input information into standardized and structured input data for AutoESDCas. It supports two main types of user input information:
+
+1. The user provides the upstream sequence of the target to be edited on the genome.
+2. The user provides the coordinates of the target to be edited on the genome.
+
+Additionally, in alignment with the key functions provided by AutoESDCas for users, which include:
+
+1. Designing only sgRNA.
+2. Designing only primers.  
+3. Designing both sgRNA and primers.
+
+Both types of input information require the corresponding configurations.  
 
 ## Installation
 
@@ -81,10 +92,6 @@ python parse_input_to_df.py
 - `xxx.fna` 
 
 These files will be generated in the `/home/XXX/tmp/data_preprocessing/output/` directory.
-
-
-
-
 
 
 ### 2.the user provides the coordinates of the target to be edited on the genome.

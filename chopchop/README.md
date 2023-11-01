@@ -1,8 +1,7 @@
 # chopchop
 ## Project Introduction 
-As the sgRNA design module of AutoESDCas, chopshop's main function is to high-throughput complete sgRNA design by calling the core algorithm of the original chopshop sgRNA design.
-
-
+**chopshop** serves as the sgRNA design module of AutoESDCas. Its primary function is to perform high-throughput sgRNA design by utilizing the core algorithm of the original chopshop sgRNA design. This process is based on the results obtained from the **data_preprocessing** module.
+  
 ## Installation
 The installation of the original chopshop requires the establishment of a virtual environment for Python 2.7, as well as the installation of tools such as Bowtie and twoBitToFa. On this basis, the virtual environment of python 3.8 and the installation of its related packages are established, and the original chop shop of the python 2.7 environment is finally called in the python 3.8 environment.
 

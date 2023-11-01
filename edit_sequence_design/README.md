@@ -2,8 +2,9 @@
 
 ## Project Introduction
 
-**editing_sequence_design** serves as the primer design module of AutoESDCas, primarily focusing on automating and optimizing the primer design process for genome editing. It leverages Crispr/HR technology and offers various features, including homologous arm design, PCR primer design, sequencing primer design, and the visualization of recombinant plasmid maps. This module is designed to support multiple experimental conditions, catering to the diverse needs of biological researchers. The supported scenarios include:
 
+**editing_sequence_design** serves as the primer design module of AutoESDCas, with a primary focus on automating and optimizing the primer design process for genome editing. This module builds upon the results obtained from the **data_preprocessing** and **chopchop** modules. It offers a range of features, including the design of homologous arms, PCR primers, sequencing primers, and the visualization of recombinant plasmid maps. This module is designed to accommodate various experimental conditions, catering to the diverse requirements of biological researchers.
+Supported scenarios include:
 1. **Same Plasmid Template - Synthesis Recombinant Plasmid:**
    - The sgRNA and homologous arm exist on the same plasmid template.
    - Recombinant plasmid synthesis is employed.
