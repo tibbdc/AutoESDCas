@@ -1,3 +1,12 @@
+# -*- coding:utf-8 -*-
+# @FileName     :product_and_decorate_editingSeq.py
+# @Time         :2023/11/01 12:48:15
+# @Author       :YangChunhe
+# @Email        :2393492851@qq.com
+# @Description  :file content
+
+
+
 import pandas as pd
 from Bio import SeqIO 
 import os,sys

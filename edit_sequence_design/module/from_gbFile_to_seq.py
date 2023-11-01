@@ -1,3 +1,10 @@
+# -*- coding:utf-8 -*-
+# @FileName     :from_gbFile_to_seq.py
+# @Time         :2023/11/01 12:47:26
+# @Author       :YangChunhe
+# @Email        :2393492851@qq.com
+# @Description  :file content
+
 
 from Bio import SeqIO
 import pandas as pd

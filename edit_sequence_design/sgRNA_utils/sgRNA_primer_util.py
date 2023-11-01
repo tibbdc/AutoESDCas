@@ -1,3 +1,11 @@
+# -*- coding:utf-8 -*-
+# @FileName     :sgRNA_primer_util.py
+# @Time         :2023/11/01 12:47:03
+# @Author       :YangChunhe
+# @Email        :2393492851@qq.com
+# @Description  :file content
+
+
 import re
 import pandas as pd
 import primer3

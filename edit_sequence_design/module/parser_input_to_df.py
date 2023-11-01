@@ -1,3 +1,11 @@
+# -*- coding:utf-8 -*-
+# @FileName     :parser_input_to_df.py
+# @Time         :2023/11/01 12:47:58
+# @Author       :YangChunhe
+# @Email        :2393492851@qq.com
+# @Description  :file content
+
+
 import pandas as pd
 from Bio import SeqIO 
 import os,sys

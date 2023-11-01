@@ -1,3 +1,11 @@
+# -*- coding:utf-8 -*-
+# @FileName     :sequencing_primer.py
+# @Time         :2023/11/01 12:48:28
+# @Author       :YangChunhe
+# @Email        :2393492851@qq.com
+# @Description  :file content
+
+
 import sys,os      
 from sgRNA_utils.sgRNA_primer_config import config   
 import sgRNA_utils.sgRNA_primer_util as util

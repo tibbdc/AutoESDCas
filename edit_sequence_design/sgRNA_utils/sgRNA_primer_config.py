@@ -1,3 +1,11 @@
+
+# -*- coding:utf-8 -*-
+# @FileName     :sgRNA_primer_config.py
+# @Time         :2023/11/01 12:46:44
+# @Author       :YangChunhe
+# @Email        :2393492851@qq.com
+# @Description  :file content
+
 import os
 
 class config: 
