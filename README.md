@@ -1,6 +1,4 @@
 # AutoESDCas
-AutoESDCas, an online tool for the whole-workflow editing sequence design for microbial genome editing based on CRISPR/Cas system. This tool facilitates all types of genetic manipulation and different CRISPR/Cas-mediated genome editing technique variants, enables biologists to quickly and efficiently obtain all editing sequences needed for the entire genome editing process, and empowers high-throughput strain modification.
-   
 ## Project Introduction
 
 **AutoESDCas** an online tool for the whole-workflow editing sequence design for microbial genome editing based on CRISPR/Cas system. This tool facilitates all types of genetic manipulation and different CRISPR/Cas-mediated genome editing technique variants, enables biologists to quickly and efficiently obtain all editing sequences needed for the entire genome editing process, and empowers high-throughput strain modification.
