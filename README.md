@@ -32,7 +32,7 @@ AutoESDCas consists of the following modules:
 
 **editing_sequence_design** serves as the primer design module of AutoESDCas, with a primary focus on automating and optimizing the primer design process for genome editing. This module builds upon the results obtained from the Data Preprocessing and ChopChop modules. It offers a range of features, including the design of homologous arms, PCR primers, sequencing primers, and the visualization of recombinant plasmid maps.
 
-[Learn more about editing_sequence_design](#https://github.com/tibbdc/AutoESDCas/tree/master/edit_sequence_design)
+[Learn more about editing_sequence_design](#link-to-editing_sequence_design https://github.com/tibbdc/AutoESDCas/tree/master/edit_sequence_design)
 
 ## Installation
 
