@@ -1,0 +1,10 @@
+
+    {
+        "PAM": "NGG",
+        "THREADS": 8,
+        "genome_name": "Corynebacterium_glutamicum",
+        "guideSize": 20,
+        "maxMismatches": 3,
+        "scoringMethod": "DOENCH_2014"
+    }
+  

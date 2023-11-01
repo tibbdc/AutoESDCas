@@ -1,0 +1,26 @@
+{
+    "genome_path": "/data/input/genome/GCA_000011325.1_ASM1132v1_genomic.fna",
+    "info_path": "data/input/",
+
+    "PATH": {
+        "BOWTIE": "bowtie",
+        "TWOBIT_INDEX_DIR": "data/input/2bit",
+        "PRIMER3": "primer3_core",
+        "TWOBITTOFA": "twoBitToFa",
+        "BOWTIE_INDEX_DIR": "data/input/ebwt/"
+    }, 
+    "bit_datat": "data/input/2bit/",
+    "THREADS": 8,
+    "chopchop_params": {
+        "PAM": "NGG",  
+        "genome_name": "Corynebacterium_glutamicum",
+        "guideSize": 20,
+        "maxMismatches": 3,
+        "scoringMethod": "DOENCH_2014"
+    },
+    "ebwt_datat": "data/input/ebwt/",
+    "output_path": "data/output/"
+}
+
+
+  

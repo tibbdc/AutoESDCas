@@ -1,0 +1,10 @@
+{
+    "input_file_path":"./input/05-10-input.csv",   
+    "ref_genome":"./input/GCF_000005845.2_ASM584v2_genomic.gbff",
+    "data_preprocessing_workdir":"/home/yanghe/tmp/data_preprocessing/output/",
+    "scene":"both_sgRNA_primer"
+}
+
+
+
+

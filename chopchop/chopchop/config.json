@@ -1,0 +1,12 @@
+{
+    "input_file_path":"/home/yanghe/tmp/data_preprocessing/output/info_input.csv",
+    "ref_genome":"/home/yanghe/tmp/data_preprocessing/output/xxx.fna",
+    "env":"/home/yanghe/anaconda3/envs/chopchop/",
+    "chopchop_workdir":"/home/yanghe/tmp/123/output/",  
+    "chopchop_config":{
+        "PAM": "NGG", 
+        "guideSize": 20,
+        "maxMismatches": 3,
+        "scoringMethod": "DOENCH_2014"
+    }
+}

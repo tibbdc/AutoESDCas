@@ -1,0 +1,7 @@
+name,recognition_seq,gap_len,cut_seq_len,protective_base
+BsaI,GGTCTC,1,4,CCA
+BbsI,GAAGAC,1,4,CCA
+SapI,GCTCTTC,1,3,CCA
+BsmBI,CGTCTC,1,4,CCA
+PaqCI,CACCTGC,1,4,CCA
+BspMI,ACCTGC,1,4,CAA
