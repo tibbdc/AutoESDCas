@@ -3,8 +3,8 @@
 
 ### 1.Introduction
 **AutoESDCas** an online tool for the whole-workflow editing sequence design for microbial genome editing based on CRISPR/Cas system. This tool facilitates all types of genetic manipulation and different CRISPR/Cas-mediated genome editing technique variants, enables biologists to quickly and efficiently obtain all editing sequences needed for the entire genome editing process, and empowers high-throughput strain modification. **AutoESDCas** offer two essntial modules:
-**sgRNA Design** serves as the sgRNA design module of AutoESDCas. Its primary function is to perform high-throughput sgRNA design by utilizing the core algorithm of the original chopshop sgRNA design.
-**Genome Editing Design** serves as the primer design module of AutoESDCas, with a primary focus on automating and optimizing the primer design process for genome editing. It offers a range of features, including the design of homologous arms, PCR primers, sequencing primers, and the visualization of recombinant plasmid maps. This module is designed to accommodate various experimental conditions, catering to the diverse requirements of biological researchers.
+- **sgRNA Design** serves as the sgRNA design module of AutoESDCas. Its primary function is to perform high-throughput sgRNA design by utilizing the core algorithm of the original chopshop sgRNA design.
+- **Genome Editing Design** serves as the primer design module of AutoESDCas, with a primary focus on automating and optimizing the primer design process for genome editing. It offers a range of features, including the design of homologous arms, PCR primers, sequencing primers, and the visualization of recombinant plasmid maps. This module is designed to accommodate various experimental conditions, catering to the diverse requirements of biological researchers.
 Supported scenarios include:
 1. **Same Plasmid Template - Synthesis Recombinant Plasmid:**
    - The sgRNA and homologous arm exist on the same plasmid template.
@@ -56,13 +56,13 @@ Supported scenarios include:
 In this mode, AutoESDCas provides high-throughput sgRNA design functionality and supports two types of input methods, allowing end users to easily and quickly obtain sgRNA.
 1. The user provides the upstream sequence of the target to be edited on the genome.
 <video width="640" height="360" controls>
-        <source src="./video/only_sgRNA_1.mp4" type="video/mp4">
-        Fig.1 sgRNA design.
+        Video: [sgRNA Design](./video/only_sgRNA_1.mp4)
+        Fig.1 sgRNA design 1.
 </video>
     2. The user provides the coordinates of the target to be edited on the genome.
 <video width="640" height="360" controls>
-        <source src="./video/only_sgRNA_1.mp4" type="video/mp4">
-        Fig.2 sgRNA design.
+        Video: [sgRNA Design](./video/only_sgRNA_2.mp4)
+        Fig.2 sgRNA design 2.
 </video>  
 #### 2.2 Sole emphasis on genome editing
 
