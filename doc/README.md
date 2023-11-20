@@ -6,38 +6,38 @@
 - **sgRNA Design** serves as the sgRNA design module of AutoESDCas. Its primary function is to perform high-throughput sgRNA design by utilizing the core algorithm of the original chopshop sgRNA design.
 - **Genome Editing Design** serves as the primer design module of AutoESDCas, with a primary focus on automating and optimizing the primer design process for genome editing. It offers a range of features, including the design of homologous arms, PCR primers, sequencing primers, and the visualization of recombinant plasmid maps. This module is designed to accommodate various experimental conditions, catering to the diverse requirements of biological researchers.
 Supported scenarios include:
-1. **Same Plasmid Template - Synthesis Recombinant Plasmid:**
-   - The sgRNA and homologous arm exist on the same plasmid template.
-   - Recombinant plasmid synthesis is employed.
+  1. **Same Plasmid Template - Synthesis Recombinant Plasmid:**
+    - The sgRNA and homologous arm exist on the same plasmid template.
+    - Recombinant plasmid synthesis is employed.
 
-1. **Different Plasmid Templates - Synthesis Recombinant Plasmid:**
-   - The sgRNA and homologous arms are on separate plasmid templates.
-   - Recombinant plasmid synthesis is used.
+  1. **Different Plasmid Templates - Synthesis Recombinant Plasmid:**
+    - The sgRNA and homologous arms are on separate plasmid templates.
+    - Recombinant plasmid synthesis is used.
 
-3. **Same Plasmid Template - PCR-Based Recombinant Plasmid:**
-   - The sgRNA and homologous arm are on the same plasmid template.
-   - The sgRNA sequence fragment, homologous arm sequence fragment, and recombinant plasmid sequence fragment are obtained via PCR.
-   - Primer design for the recombinant plasmid sequence fragment supports three scenarios:
-     - i. System automatic design
-     - ii. Manual provision of partial primers
-     - iii. Manual provision of primer design range.
+  3. **Same Plasmid Template - PCR-Based Recombinant Plasmid:**
+    - The sgRNA and homologous arm are on the same plasmid template.
+    - The sgRNA sequence fragment, homologous arm sequence fragment, and recombinant plasmid sequence fragment are obtained via PCR.
+    - Primer design for the recombinant plasmid sequence fragment supports three scenarios:
+      - i. System automatic design
+      - ii. Manual provision of partial primers
+      - iii. Manual provision of primer design range.
 
-4. **Different Plasmid Templates - PCR-Based Recombinant Plasmid:**
-   - The sgRNA and homologous arms are located on different plasmid templates.
-   - The sgRNA sequence fragment, homologous arm sequence fragment, and two different recombinant plasmid sequence fragments are obtained through PCR.
-   - Primer design for the recombinant plasmid sequence fragment supports three scenarios:
-     - i. System automatic design
-     - ii. Manual provision of partial primers
-     - iii. Manual provision of primer design range.
+  4. **Different Plasmid Templates - PCR-Based Recombinant Plasmid:**
+    - The sgRNA and homologous arms are located on different plasmid templates.
+    - The sgRNA sequence fragment, homologous arm sequence fragment, and two different recombinant plasmid sequence fragments are obtained through PCR.
+    - Primer design for the recombinant plasmid sequence fragment supports three scenarios:
+      - i. System automatic design
+      - ii. Manual provision of partial primers
+      - iii. Manual provision of primer design range.
 
-5. **Different Plasmid Templates - PCR-Based Homologous Arm Sequence Fragment:**
-   - The sgRNA and homologous arm are located in different plasmid templates.
-   - The homologous arm sequence fragment and the recombinant plasmid sequence fragment where the homologous arm is located are obtained through PCR.
-   - Primer design for the recombinant plasmid sequence fragment where the source arm is located supports three primer design scenarios:
-     - i. System automatic design
-     - ii. Manual provision of partial primers
-     - iii. Manual provision of primer design range.
-   - Additionally, sgRNA sequence fragments are obtained through primer annealing, and the recombinant plasmid fragments where the sgRNA is located are obtained through enzymatic cleavage.
+  5. **Different Plasmid Templates - PCR-Based Homologous Arm Sequence Fragment:**
+    - The sgRNA and homologous arm are located in different plasmid templates.
+    - The homologous arm sequence fragment and the recombinant plasmid sequence fragment where the homologous arm is located are obtained through PCR.
+    - Primer design for the recombinant plasmid sequence fragment where the source arm is located supports three primer design scenarios:
+      - i. System automatic design
+      - ii. Manual provision of partial primers
+      - iii. Manual provision of primer design range.
+    - Additionally, sgRNA sequence fragments are obtained through primer annealing, and the recombinant plasmid fragments where the sgRNA is located are obtained through enzymatic cleavage.
 **AutoESDCas** offers multiple flexible usage options to cater to diverse user needs:
 1. **Exclusive focus on sgRNA design**:
     - In this mode, users can swiftly and accurately design sgRNA sequences tailored to their experimental requirements.
