@@ -16,12 +16,12 @@ AutoESDCas consists of the following modules:
 **data_preprocessing** serves as the data preprocessing module of AutoESDCas. Its primary function is to convert user input information into standardized and structured input data for AutoESDCas. It supports two main types of user input information:
 
 - The user provides the upstream sequence of the target to be edited on the genome.
-- The user provides the coordinates of the target to be edited on the genome.
+- The user provides the coordinates of the target to be edited on the genome.  
 
-[Learn more about data_preprocessing](https://github.com/tibbdc/AutoESDCas/tree/master/data_preprocessing)
+[Learn more about data_preprocessing](https://github.com/tibbdc/AutoESDCas/tree/master/data_preprocessing)   
 
 
-## chopchop
+## chopchop  
 
 **chopchop** serves as the sgRNA design module of AutoESDCas. Its primary function is to perform high-throughput sgRNA design by utilizing the core algorithm of the original ChopChop sgRNA design. This process is based on the results obtained from the Data Preprocessing module.
 

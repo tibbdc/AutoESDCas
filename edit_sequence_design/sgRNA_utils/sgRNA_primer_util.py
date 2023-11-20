@@ -14,6 +14,11 @@ from Bio import SeqIO
 from os.path import exists,splitext,dirname,splitext,basename,realpath,abspath 
 
 
+#
+
+
+
+
 #检查DNA序列中非规范碱基的位置
 def find_non_agct_positions(sequence):
     non_standard_bases = [m.start() for m in re.finditer('[^AGCTagct]', sequence)]
