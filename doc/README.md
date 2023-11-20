@@ -39,7 +39,7 @@ Supported scenarios include:
         - iii. Manual provision of primer design range.
       - Additionally, sgRNA sequence fragments are obtained through primer annealing, and the recombinant plasmid fragments where the sgRNA is located are obtained through enzymatic cleavage.
 
-**AutoESDCas** offers multiple flexible usage options to cater to diverse user needs:
+Additionally, **AutoESDCas** offers multiple flexible usage options to cater to diverse user needs:
   1. **Exclusive focus on sgRNA design**:
       - In this mode, users can swiftly and accurately design sgRNA sequences tailored to their experimental requirements.
       - Opt for this approach if sgRNA design is your primary concern.
@@ -54,15 +54,9 @@ Supported scenarios include:
 #### 2.1 Exclusive focus on sgRNA design
 In this mode, AutoESDCas provides high-throughput sgRNA design functionality and supports two types of input methods, allowing end users to easily and quickly obtain sgRNA.
 1. The user provides the upstream sequence of the target to be edited on the genome.
-<video width="640" height="360" controls>
-        Video: [sgRNA Design](./video/only_sgRNA_1.mp4)
-        Fig.1 sgRNA design 1.
-</video>
-    2. The user provides the coordinates of the target to be edited on the genome.
-<video width="640" height="360" controls>
-        Video: [sgRNA Design](./video/only_sgRNA_2.mp4)
-        Fig.2 sgRNA design 2.
-</video>  
+  Video: [sgRNA Design 1](./video/only_sgRNA_1.mp4)
+2. The user provides the coordinates of the target to be edited on the genome.
+  Video: [sgRNA Design 2](./video/only_sgRNA_2.mp4)
 #### 2.2 Sole emphasis on genome editing
 
 
