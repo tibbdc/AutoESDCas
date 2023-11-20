@@ -38,18 +38,17 @@ Supported scenarios include:
         - ii. Manual provision of partial primers
         - iii. Manual provision of primer design range.
       - Additionally, sgRNA sequence fragments are obtained through primer annealing, and the recombinant plasmid fragments where the sgRNA is located are obtained through enzymatic cleavage.
+
 **AutoESDCas** offers multiple flexible usage options to cater to diverse user needs:
-1. **Exclusive focus on sgRNA design**:
-    - In this mode, users can swiftly and accurately design sgRNA sequences tailored to their experimental requirements.
-    - Opt for this approach if sgRNA design is your primary concern.
-2. **Sole emphasis on genome editing**:  
-    - Ideal for users exclusively interested in genome editing, this option allows direct execution of genome editing and design without dealing with sgRNA-related steps.Choose this mode for a streamlined genome editing experience.
-3. **Comprehensive consideration of sgRNA and genome editing**:
-    - The most comprehensive choice for users needing a holistic approach. Initiate sgRNA design first and then delve into a more in-depth genome editing design based on these initial designs.
-    - Opt for this approach if you require a thorough integration of sgRNA and genome editing.
-
-
-
+  1. **Exclusive focus on sgRNA design**:
+      - In this mode, users can swiftly and accurately design sgRNA sequences tailored to their experimental requirements.
+      - Opt for this approach if sgRNA design is your primary concern.
+  2. **Sole emphasis on genome editing**:  
+      - Ideal for users exclusively interested in genome editing, this option allows direct execution of genome editing and design without dealing with sgRNA-related steps.Choose this mode for a streamlined genome editing experience.
+  3. **Comprehensive consideration of sgRNA and genome editing**:
+      - The most comprehensive choice for users needing a holistic approach. Initiate sgRNA design first and then delve into a more in-depth genome editing design based on these initial designs.
+      - Opt for this approach if you require a thorough integration of sgRNA and genome editing.
+  
 ### 2.PRIMARY FEATURES OFFERED BY THE WEBSITE
 
 #### 2.1 Exclusive focus on sgRNA design
