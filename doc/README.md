@@ -57,7 +57,7 @@ In this mode, AutoESDCas provides high-throughput sgRNA design functionality and
 
 - The user provides the upstream sequence of the target to be edited on the genome.  
 ![Watch the video](https://autoesdcas.s3.amazonaws.com/uploads/only_sgRNA_1.mp4)
-<video src="https://user-images.githubusercontent.com/169707/126715420-991ad821-9ac8-4b66-b79e-e0966e0f3a89.mp4" data-canonical-src="https://user-images.githubusercontent.com/169707/126715420-991ad821-9ac8-4b66-b79e-e0966e0f3a89.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
+<video src="https://autoesdcas.s3.amazonaws.com/uploads/only_sgRNA_1.mp4" data-canonical-src="https://autoesdcas.s3.amazonaws.com/uploads/only_sgRNA_1.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
 - The user provides the coordinates of the target to be edited on the genome.  
 
 #### 2.2 Sole emphasis on genome editing
