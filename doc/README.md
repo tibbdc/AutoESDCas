@@ -56,7 +56,8 @@ Additionally, **AutoESDCas** offers multiple flexible usage options to cater to 
 In this mode, AutoESDCas provides high-throughput sgRNA design functionality and supports two kinds of input, allowing end users to easily and quickly obtain sgRNA.
 
 - The user provides the upstream sequence of the target to be edited on the genome.  
-![only_sgRNA_1](https://autoesdcas.s3.amazonaws.com/uploads/only_sgRNA_1.mp4)
+()
+[![Watch the video](https://autoesdcas.s3.amazonaws.com/uploads/only_sgRNA_1.mp4)]
 - The user provides the coordinates of the target to be edited on the genome.  
 
 #### 2.2 Sole emphasis on genome editing
