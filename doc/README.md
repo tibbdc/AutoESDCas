@@ -54,10 +54,7 @@ Additionally, **AutoESDCas** offers multiple flexible usage options to cater to 
 #### 2.1 Exclusive focus on sgRNA design
 
 In this mode, AutoESDCas provides high-throughput sgRNA design functionality and supports two kinds of input, allowing end users to easily and quickly obtain sgRNA.
-
 - The user provides the upstream sequence of the target to be edited on the genome.  
-![Watch the video](https://autoesdcas.s3.amazonaws.com/uploads/only_sgRNA_1.mp4)
-<video src="https://autoesdcas.s3.amazonaws.com/uploads/only_sgRNA_1.mp4" width="320" height="240" autoplay controls></video>
 - The user provides the coordinates of the target to be edited on the genome.  
 
 #### 2.2 Sole emphasis on genome editing
@@ -112,7 +109,7 @@ The second group of input files includes the FASTA file of the target genome, co
 
 The output of AutoESDCas's sgRNA design task is an XLSX file containing all sgRNAs. The file includes columns such as Name and Rank, where the sgRNA ranking is determined using the ChopChop sgRNA design algorithm.
 
-![1701157308621](C:\Users\TIBD_L~1\AppData\Local\Temp\1701157308621.png)
+![2](https://github.com/tibbdc/AutoESDCas/blob/main/doc/img/2.png)
 
 **Figure 2  Output file of format.** Example of design results, list in XLSX output file.
 
@@ -124,7 +121,7 @@ AutoESDCas's Genome Editing Design Task supports two types of input files. In th
 
 The second group of input files includes the FASTA file of the target genome, containing all sequences, along with a CSV file detailing the upstream sequence of the edited target. Similar to the first group, a GB file for the plasmid template is required. The CSV file, an extension of the structure in Figure 1 B2, includes columns for "Inserted Sequence," "Manipulation type," and "crRNA."
 
-![1701157538029](C:\Users\TIBD_L~1\AppData\Local\Temp\1701157538029.png)
+![3](https://github.com/tibbdc/AutoESDCas/blob/main/doc/img/3.png)
 
 **Figure 3  Input file format. A1.** Example in a GB input file for the targeted genome. **B1.** The CSV input file for the standard sequence manipulation Genome design task includes a parts list with user-provided genome target coordinates for the desired editing location.**C1** Example in a GB Input File for the Targeted Plasmid. **A2** Example in a Fasta input file for the targeted genome. **B2** The CSV input file for the standard sequence manipulation Genome design task includes a parts list, with users providing information about the upstream sequence of the target to be edited on the genome.**C2** Example in a GB Input File for the Targeted Plasmid.
 
@@ -146,7 +143,7 @@ The output of AutoESDCas's Genome Editing Design Task includes the following fil
 
 The output for the "Same Plasmid Template - PCR-Based Recombinant Plasmid" application scenario is exemplified in various sections of Figure 4:In Figure A, an example is presented that provides details regarding PCR primers, specifically those associated with the upstream homologous arm. The information encompasses the ID of the homologous arm primer, the PCR primer pair designed for the homologous arm, the resulting product of the PCR amplification, and the length of the generated product.In Figure B, an example illustrates the output of the evaluation of off-target sequencing primers for the genome. This includes details such as the primer ID, information about occurrences of off-target effects, site ID, sequence, distance from the target site, mismatch details (NM), and the frequency of occurrences on the genome.Figure C illustrates an example providing details about sequencing primers designed specifically for the recombinant plasmid. The information includes specifics about the primer itself, such as its sequence, and its associated melting temperature (TM) value.In Figure E, information related to the off-target analysis for homologous arms is presented.Figure F provides an example of a GenBank (gb) file for the recombinant plasmid. This file encompasses characteristic details about the PCR primers used, the homologous arms, and features related to sgRNA.
 
-![1701173503274](C:\Users\TIBD_L~1\AppData\Local\Temp\1701173503274.png)
+![4](https://github.com/tibbdc/AutoESDCas/blob/main/doc/img/4.png)
 
 **Figure 4  Examples of the output files . ** **A** Example in Design_result for upstream homologous arm (Primer_UHA) PCR primers.**B** Example in Design_result for Off-Target sequencing primers for the genome (Primer_g_offTarget).**C **Example in Design_result for recombinant plasmid sequencing primers（Test_primer_P1）.**D** Example in Design_result for primer ordering. **E** Example in Evaluation for Off-Target analysis report for homologous arms. **F** Example in gb files for recombinant plasmid.
 
@@ -156,7 +153,7 @@ The output for the "Same Plasmid Template - PCR-Based Recombinant Plasmid" appli
 
 AutoESDCas's sgRNA design and Genome Editing Design task supports two types of input files. In this mode (referring to the context of Figure 4, columns B1 and B2), the input format differs from the "Sole emphasis on genome editing" mode by excluding the `crRNA` columns found in Figure 2 (B1, B2).And,this mode's output can be referenced using Figure 2 and Figure 4.
 
-![1701176981783](C:\Users\TIBD_L~1\AppData\Local\Temp\1701176981783.png)
+![5](https://github.com/tibbdc/AutoESDCas/blob/main/doc/img/5.png)
 
 **Figure 5  Input file format. A1.** Example in a GB input file for the targeted genome. **B1.** The CSV input file for the standard sequence manipulation Genome design task includes a parts list with user-provided genome target coordinates for the desired editing location.**C1** Example in a GB Input File for the Targeted Plasmid. **A2** Example in a Fasta input file for the targeted genome. **B2** The CSV input file for the standard sequence manipulation Genome design task includes a parts list, with users providing information about the upstream sequence of the target to be edited on the genome.**C2** Example in a GB Input File for the Targeted Plasmid.
 
