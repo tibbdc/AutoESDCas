@@ -107,7 +107,7 @@ AutoESDCas's sgRNA design task supports two types of input files. The first grou
 
 The second group of input files includes the FASTA file of the target genome, containing all sequences, and a CSV file with the upstream sequence of the edited target. The CSV file includes a Name column (ensuring information uniqueness), a Sequence upstream of the manipulation site (>100bp) column, and a Reference sequence column (wild-type sequence). The latter two columns are used to locate the editing target on the genome.
 
-![1](.1.png)
+![1](https://github.com/tibbdc/AutoESDCas/blob/main/doc/img/1.png)
 
 **Figure 1  Input file format. A1.** Example in a GB input file for the targeted genome. **B1.** The CSV input file for the standard sequence manipulation sgRNA design task includes a parts list with user-provided genome target coordinates for the desired editing location. **A2** Example in a Fasta input file for the targeted genome. **B2** The CSV input file for the standard sequence manipulation sgRNA design task includes a parts list, with users providing information about the upstream sequence of the target to be edited on the genome.
 
