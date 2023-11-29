@@ -20,7 +20,7 @@ import module.order as order
 import warnings   
 warnings.filterwarnings('ignore')           
 import configparser     
-from Bio import SeqIO  
+from Bio import SeqIO    
 from Bio.Seq import Seq   
 from Bio.SeqRecord import SeqRecord   
 import json
@@ -2668,7 +2668,7 @@ if __name__ == '__main__':
             'sgRNA_result':{},  
 
             "scene":"both_sgRNA_primer", 
-            "plasmid_metod":'1', 
+            "plasmid_metod":'0', 
 
             "uha_dha_config": {     
                 "max_right_arm_seq_length": 145,     

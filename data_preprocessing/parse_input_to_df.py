@@ -607,8 +607,8 @@ if __name__ == '__main__':
                     "scene":"both_sgRNA_primer",
                 }
         data6 = {
-                "input_file_path":"./input/4-23-input.csv",
-                "ref_genome":"./input/GCF_000005845.2_ASM584v2_genomic.gbff",    
+                "input_file_path":"/home/yanghe/public_github/AutoESDCas/data_preprocessing/input/designing_only_primers_2.csv",
+                "ref_genome":"/home/yanghe/public_github/AutoESDCas/data_preprocessing/input/eco.gb",    
                 "data_preprocessing_workdir":"/home/yanghe/tmp/data_preprocessing/output/",
                 "scene":"only_primer",
             }
@@ -641,7 +641,7 @@ if __name__ == '__main__':
  
     import time
     time1=time.time()
-    a = main(data2)
+    a = main(data6)
     print(a)
 
     time2=time.time()
